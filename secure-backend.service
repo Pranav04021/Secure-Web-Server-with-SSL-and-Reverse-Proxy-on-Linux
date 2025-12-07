@@ -1,0 +1,13 @@
+[Unit]
+Description=Secure Backend Node.js Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /home/pranav/secure-backend/server.js
+Restart=always
+User=pranav
+WorkingDirectory=/home/pranav/secure-backend
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
