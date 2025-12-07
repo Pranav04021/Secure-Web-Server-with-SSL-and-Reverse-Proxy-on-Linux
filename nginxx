@@ -30,3 +30,10 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
+
+/*Installation:
+sudo ln -s /etc/nginx/sites-available/secure-site /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+*/
