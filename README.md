@@ -250,7 +250,3 @@ Add monitoring and logging dashboards
 Deploy to a cloud VM (AWS / Azure / GCP)
 
 Add CI/CD pipeline (GitHub Actions / Jenkins)
-
----
-
-If you tell me your **GitHub repo name**, I can also write a small **project description + badges + screenshots section** for the top of your README.
